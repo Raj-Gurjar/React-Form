@@ -1,0 +1,48 @@
+.App {
+
+  
+}
+.form-cls
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form
+{
+  /* background-color: red; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+label
+{
+  /* background-color: red; */
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+input,select,fieldset
+{
+ /* background-color: green; */
+ border-radius: 3px;
+ border: 1px solid skyblue;
+ padding: 4px;
+}
+fieldset
+{
+  margin: 10px 0px;
+}
+button
+{
+  display: inline-block;
+  background-color: rgb(78, 206, 221);
+  padding: 5px;
+  color: white;
+  margin: 10px;
+  border:1px solid black;
+
+}
