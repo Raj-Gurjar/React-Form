@@ -34,7 +34,7 @@ export default function Form() {
 
         })
     }
-
+   //! Handle form submission
     function handleSubmit(event) {
         event.preventDefault();
         alert('Form submitted Successfully');
@@ -54,7 +54,8 @@ export default function Form() {
                     placeholder='Pranay'
                     name='firstName'
                     onChange={changeHandler}
-                    value={formData.firstName}
+                    value={formData.firstName}    // Value associated with this radio button when selected
+                    
                 />
                 <label>Last Name</label>
                 <input
@@ -132,7 +133,7 @@ export default function Form() {
                         id='Cmnt'
                         name='comment'
                         onChange={changeHandler}
-                        checked={formData.comment}
+                        checked={formData.comment} // Reflects whether this radio button is selected
                     />
                     <label htmlFor='Cmnt'>
                         {/* <div> */}
