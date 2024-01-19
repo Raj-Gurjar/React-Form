@@ -4,7 +4,7 @@ export default function Form() {
 
     const [formData, setFormData] = useState({
 
-        firstName: "", lastName: "", email: "", country: "", streetName: "", zipNum: 0,
+        firstName: "", lastName: "", email: "", country: "", streetName: "", zipNum: '',
         stateName: "", cityName: "", comment: false, offer: false, candidate: false,
         noti: ""
     })
@@ -117,7 +117,7 @@ export default function Form() {
                 <label>Zip/Postal Code</label>
                 <input
                     type='number'
-                    placeholder='123 Main St'
+                    placeholder='12335'
                     name='zipNum'
                     onChange={changeHandler}
                     value={formData.zipNum}
